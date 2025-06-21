@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+	font-family: "Noto Sans", sans-serif; font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: #FFFFFF; margin: 0
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: #4F4F4F; border-radius: 20px; font-size: 17px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide1 .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide1 .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide1 .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+main{
+	width: 100%; min-height: 500px
+}
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #666666; text-transform: capitalize
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+.sp{
+	font-size: 20px;font-weight: bold; color: #4058E5
+}
+.text-den{
+	color: black
+}
+footer{
+	width: 100%;min-height: 300px;background-color: white
+}
+footer a{
+	color: silver
+}
+footer a:hover{
+	color: saddlebrown
+}
+.bg-xanh{
+	min-height: 300px;background-color: #2F1908;text-align:center
+		
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px;text-decoration: none
+}
+footer ul li a:hover{
+	color: white
+}
+.vien-xam{
+	width: 100%; min-height: 300px; border: 1px solid #B9B9B9; border-radius: 5px; padding: 10px
+}
+.menu-header {
+    text-align: center;
+    padding: 40px 20px 10px;
+    background-color: #f5f2f0;
+  }
+
+  .menu-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+.menu-header p {
+    color: #666;
+  }
+.menu-banner {
+    background-image: url('https://i.imgur.com/E7BaQKv.png'); /* ảnh 5 ly nước */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    background-color: #f9f5f2;
+    gap: 10px;
+  }
+.menu-nav a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #c8191d;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+.menu-nav a:hover {
+    background: #f0e6e6;
+  }
+.menu-section {
+    padding: 40px 20px;
+    background: #f5ebe6;
+    text-align: center;
+  }
+
+.menu-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+.menu-items .item {
+    width: 160px;
+  }
+
+  .menu-items img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.menu-items p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+  }
+.right-form {
+    background: #f7f7f7;
+    padding: 40px 30px;
+    height: 350px;
+    flex: 1;
+  }
+
+  .right-form h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+  }
+
+  .right-form p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .right-form select,
+  .right-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .right-form select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .right-form button {
+    background-color: #c8191d;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }

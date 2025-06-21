@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cửa hàng Gong Cha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <div class="bg-[#e7dbcd] p-6 flex items-center justify-between">
+    <h1 class="text-3xl font-bold">CỬA HÀNG</h1>
+    <span class="text-gray-600 text-sm">Store List</span>
+  </div>
+
+  <!-- Search Section -->
+  <div class="bg-white shadow-md p-4 flex flex-col md:flex-row items-center justify-between gap-4 mx-6 mt-4 rounded-lg">
+    <div class="flex items-center gap-2 w-full md:w-1/2">
+      <select class="w-full p-2 border rounded">
+        <option>Hồ Chí Minh</option>
+        <option>Hà Nội</option>
+        <option>Đà Nẵng</option>
+      </select>
+    </div>
+    <button class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">TÌM CỬA HÀNG</button>
+  </div>
+
+  <!-- Store List and Map -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mx-6">
+    <!-- Store List -->
+    <div class="bg-white rounded shadow-md p-4 overflow-y-auto max-h-[500px]">
+      <h2 class="font-semibold text-lg mb-2">Hồ Chí Minh</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold">Gong Cha Nguyễn Xí</h3>
+          <p>193 Nguyễn Xí, P.26, Quận Bình Thạnh, TP.Hồ Chí Minh</p>
+        </div>
+        <div>
+          <h3 class="font-bold">Gong Cha Lê Văn Sỹ</h3>
+          <p>180C Lê Văn Sỹ, phường 10, quận Phú Nhuận</p>
+        </div>
+        <div>
+          <h3 class="font-bold">Gong Cha Satra Võ Văn Kiệt</h3>
+          <p>G-04 Tầng 01 Trung tâm thương mại Satra Võ Văn Kiệt, 1466 Võ Văn Kiệt, Quận 6, TP. Hồ Chí Minh</p>
+        </div>
+		  <div>
+          <h3 class="font-bold">Gong Cha Nguyễn Thái Bình</h3>
+          <p>59 Nguyễn Thái Bình, P.4, Quận Tân Bình, TP.Hồ Chí Minh</p>
+        </div>
+        <!-- Bạn có thể thêm nhiều cửa hàng khác -->
+      </div>
+    </div>
+
+    <!-- Map Placeholder -->
+    <div class="bg-gray-200 rounded shadow-md h-[500px] flex items-center justify-center text-gray-600">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1531443321987!2d106.65603437586887!3d10.799580358764528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529312aea14af%3A0x6251b4c22362d2f0!2zR29uZyBDaGEgTmd1eeG7hW4gVGjDoWkgQsOsbmg!5e0!3m2!1svi!2s!4v1750487225874!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</body>
+</html>
